@@ -70,3 +70,35 @@ while choice!=0:
         print("Keliling bujur sangkar adalah","=", keliling_bujur_sangkar(sisi))
         print('')
         print('')
+    elif choice=='7':
+        panjang=int(input("Masukkan panjang sisi persegi panjang:"))
+        lebar=int(input("Masukkan lebar sisi persegi panjang:"))
+        print("Keliling persegi adalah","=", keliling_persegi_panjang(panjang,lebar))
+        print('')
+        print('')
+    elif choice=='8':
+        alas=int(input("Masukkan alas segitiga:"))
+        tinggi=int(input("Masukkan tinggi segitiga:"))
+        sisi=int(input("Masukkan sisi segitiga:"))
+        print("Keliling segitiga adalah","=", keliling_segitiga(alas,tinggi,sisi))
+        print('')
+        print('')
+    elif choice=='9':
+        jari=int(input("Masukkan jari-jari lingkaran:"))
+        print("Keliling lingkaran adalah","=", keliling_lingkaran(jari))
+        print('')
+        print('')
+    elif choice=='10':
+        alas=int(input("Masukkan alas jajar genjang:"))
+        miring=int(input("Masukkan sisi miring jajar genjang:"))
+        print("Keliling jajar genjang adalah","=", keliling_jajar_genjang(alas,miring))
+        print('')
+        print('')
+    elif choice=='0':
+        print('')
+        print('')
+        break
+    else:
+        print("Pilihan yang Anda masukkan salah.")
+        print('')
+        print('')
