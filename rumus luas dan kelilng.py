@@ -36,3 +36,37 @@ while choice!=0:
     
     choice=input("Masukkan pilihan anda :")
     print('')
+    
+    if choice=='1':
+        sisi=int(input("Masukkan sisi bujur sangkar:"))
+        print("Luas bujur sangkar adalah","=", luas_bujur_sangkar(sisi))
+        print('')
+        print('')
+    elif choice=='2':
+        panjang=int(input("Masukkan panjang sisi persegi panjang:"))
+        lebar=int(input("Masukkan lebar sisi persegi panjang:"))
+        print("Luas persegi adalah","=", luas_persegi_panjang(panjang,lebar))
+        print('')
+        print('')
+    elif choice=='3':
+        alas=int(input("Masukkan alas segitiga:"))
+        tinggi=int(input("Masukkan tinggi segitiga:"))
+        print("Luas segitiga adalah","=", luas_segitiga(alas,tinggi))
+        print('')
+        print('')
+    elif choice=='4':
+        jari=int(input("Masukkan jari-jari lingkaran:"))
+        print("Luas lingkaran adalah","=", luas_lingkaran(jari))
+        print('')
+        print('')
+    elif choice=='5':
+        alas=int(input("Masukkan alas jajar genjang:"))
+        tinggi=int(input("Masukkan tinggi jajar genjang:"))
+        print("Luas jajar genjang adalah","=", luas_jajar_genjang(alas,tinggi))
+        print('')
+        print('')
+    elif choice=='6':
+        sisi=int(input("Masukkan sisi bujur sangkar:"))
+        print("Keliling bujur sangkar adalah","=", keliling_bujur_sangkar(sisi))
+        print('')
+        print('')
